@@ -1,0 +1,76 @@
+.background-comments{
+    background-color: rgb(255, 255, 255);
+}
+
+.profile-img{
+    width: 15%;
+    border-radius: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+}
+
+@media screen and (min-width: 992px){
+    .profile-img{
+        width: 30%;
+        border-radius: 100%;
+        box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    }
+}
+
+.background-formulary{
+    background-image: url(/imgs/bakgorund-green.png);
+    max-width: 100%;
+    padding-top: 6rem;
+}
+
+.background-products{
+    background-color: #59981A;
+
+
+}
+.backgorund-hero{
+    background-image: url(/imgs/background-hero.jpg);
+    background-position: center;
+    background-size: cover;
+    max-height: 40vh;
+}
+.separator {
+    position: relative;
+    background: #2c3e50;
+    height: 1vh;
+}
+
+.wave {
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    background: #59981A;
+    bottom: 0;
+}
+
+.wave::before,
+.wave::after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 100% 50%;
+}
+
+.wave::before {
+    width: 55%;
+    height: 109%;
+    background-color: #81B622;
+    right: -1.5%;
+    top: 60%;
+}
+
+.wave::after {
+    width: 55%;
+    height: 100%;
+    background-color: #59981A;
+    left: -1.5%;
+    top: 40%;
+}
+section {
+    padding-top: 3.75rem;
+    padding-bottom: 3.75rem;
+}
