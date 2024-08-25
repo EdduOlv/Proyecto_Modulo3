@@ -8,6 +8,14 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, .2);
 }
 
+.product-img{
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.product-card{
+  box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+}
+
 @media screen and (min-width: 992px){
     .profile-img{
         width: 30%;
@@ -17,13 +25,16 @@
 }
 
 .background-formulary{
-    background-image: url(/imgs/bakgorund-green.png);
+    background-image: url(/imgs/Diseño_sin_título__1_-removebg.png);
+    background-color: #81B622;
     max-width: 100%;
-    padding-top: 6rem;
+    padding-top: 9rem;
+    z-index: 2;
+
 }
 
 .background-products{
-    background-color: #59981A;
+    background-color: rgb(236, 240, 241)
 
 
 }
@@ -33,44 +44,39 @@
     background-size: cover;
     max-height: 40vh;
 }
+
 .separator {
     position: relative;
-    background: #2c3e50;
-    height: 1vh;
-}
-
-.wave {
+    background: rgb(236, 240, 241);
+    height: 10vh;
+  }
+  
+  .wave {
     position: absolute;
-    height: 100px;
+    height: 19px;
     width: 100%;
-    background: #59981A;
+    background:rgb(236, 240, 241);
     bottom: 0;
-}
-
-.wave::before,
-.wave::after {
+  }
+  
+  .wave::before, .wave::after {
     content: "";
     display: block;
     position: absolute;
     border-radius: 100% 50%;
-}
-
-.wave::before {
+  }
+  
+  .wave::before {
     width: 55%;
     height: 109%;
     background-color: #81B622;
     right: -1.5%;
     top: 60%;
-}
-
-.wave::after {
+  }
+  .wave::after {
     width: 55%;
     height: 100%;
-    background-color: #59981A;
+    background-color: rgb(236, 240, 241);
     left: -1.5%;
     top: 40%;
-}
-section {
-    padding-top: 3.75rem;
-    padding-bottom: 3.75rem;
-}
+  }
