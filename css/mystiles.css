@@ -6,8 +6,7 @@
   --primary-light: #3c9e94;
   --primary2: #7dac4b;
   --primary2-light: #a4c87a;
-  --primary3: #b9dca0;
-  --primary3-light: #c4dba3;
+  --primary3: #c4dba3;
   --dark: #000000;
   --gray: #464a53;
   --white: #ffffff;
@@ -88,7 +87,7 @@ body {
 
 .navbar {
   padding: 48px 0;
-  background-color: var(--primary3-light);
+  background-color: var(--primary3);
 }
 
 a.nav-link {
@@ -148,9 +147,11 @@ section.hero {
 
 .background-formulary {
   margin: 24px 0;
+  
 }
 
 .background-gradient{
+  
   background: linear-gradient(to top, #02735E, #d5e8d9);
 }
 
