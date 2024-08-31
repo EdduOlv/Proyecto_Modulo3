@@ -1,491 +1,542 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VETCLINIC</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/mystiles.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
-  <link rel="stylesheet" href="./css/mystiles.css" />
-</head>
-
-<body>
-  <header class="position-relative">
-    <!-- <nav class="navbar navbar-expand-lg" data-bs-theme="dark" style="background-color: #1d8ff2">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img src="imgs/navbarlogogrande.png" alt="Logo" width="100" />
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">servicios</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">quienes somos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contacto</a>
-            </li>
-          </ul>
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Mis mascotas</a>
-            </li>
-            <li class="nav-item">
-              <button type="button" class="btn btn-warning btn-sm">
-                <a class="nav-link" href="#">Sesion</a>
-              </button>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav> -->
-    
-<nav class="navbar navbar-expand-lg">
-  <div class="container">
-    <a class="navbar-brand" href="#">
-      <img src="imgs/navbarlogogrande.png" alt="Logo" width="70"/>
-      <span>Medivet</span>
-    </a>
-    <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav ms-auto">
-        <a class="nav-link" aria-current="page" href="#">Home</a>
-        <a class="nav-link" href="#">Servicios</a>
-        <a class="nav-link" href="#">Contacto</a>
-        <a class="nav-link" href="#">Mas</a>
-      </div>
-    </div>
-  </div>
-</nav>
-  </header>
-  <main>
-    <section class="hero ">
-      <div class="container bg-section rounded-4 py-4">
-     
-        <div class="row">
-            <div class="col-md-6">
-                <div class="copy" >
-                    <div class="text-label">
-                        El servicio completo para tu mascota
-                    </div>
-                    <div class="text-hero-bold">
-                      Conoce nustros planes medicos
-                    </div>
-                    <div class="text-hero-regular">
-                      ahorra hasta un 25% de descuento en cirugias y remedios
-                    </div>
-                    <div class="cta">
-                        <a href="#" class="btn btn-primary shadow-none">Pidelo ya</a>
-                        <a href="#" class="btn btn-secondary shadow-none ms-3">Ver planes</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <img src="./imgs/banner (1).png" class="w-100 imagen" alt="img">
-            </div>
-        </div>
-    </div>
-
-      <!-- <div class="hero">
+  <body>
+    <header class="position-relative">
+      <nav class="navbar navbar-expand-lg">
         <div class="container">
-          <div class="row gy-4 justify-content-center justify-content-lg-center">
-            <div class="col-lg-5">
-              <article>
-                <h2 style="color: rgb(17, 16, 16)">
-                  Conoce nustros planes medicos ahorra hasta un 25% de
-                  descuento en cirugias y remedios
-                </h2>
-                <p style="color: rgb(0, 0, 0)">
-                  aca va un texto mas largo Lorem ipsum dolor sit amet
-                  consectetur, adipisicing elit. Tenetur in voluptate cum
-                  nostrum doloribus maiores nisi quibusdam.
-                </p>
-              </article>
+          <a class="navbar-brand" href="#">
+            <img src="imgs/navbarlogo.png" alt="Logo" width="70" />
+            <span>VETCLINIC</span>
+          </a>
+          <button
+            class="navbar-toggler shadow-none"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link" aria-current="page" href="#hero">Home</a>
+              <a class="nav-link" href="#servicios">Servicios</a>
+              <a class="nav-link" href="#contacto">Contacto</a>
+              <a class="nav-link" href="#footer">Mas</a>
             </div>
-            <div class="col-lg-5">
-              <div class="contenedor-imagen">
-                <img class="imagen" src="./imgs/bannerjpg.jpg" alt="">
-              </div> -->
-        <!-- <div class="hero">
-          <div class="container">
-            <div class="row gy-4 justify-content-center justify-content-lg-center">
-              <div class="col-lg-5">
-                <article>
-                  <h2 style="color: rgb(17, 16, 16)">
-                    Conoce nustros planes medicos ahorra hasta un 25% de
-                    descuento en cirugias y remedios
-                  </h2>
-                  <p style="color: rgb(0, 0, 0)">
-                    aca va un texto mas largo Lorem ipsum dolor sit amet
-                    consectetur, adipisicing elit. Tenetur in voluptate cum
-                    nostrum doloribus maiores nisi quibusdam.
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="hero" class="hero">
+        <div class="container bg-section rounded-4 py-4">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="copy">
+                <div class="text-label">
+                  <p>El servicio completo para tu mascota</p>
+                </div>
+                <div>
+                  <h1 class="text-hero-bold">Conoce nuestros planes medicos</h1>
+                </div>
+                <div class="text-regular">
+                  <p>Ahorra hasta un 25% de descuento en cirugias y remedios</p>
+                </div>
+                <div id="cta" class="cta">
+                  <a href="#" class="btn btn-primary shadow-none">Pidelo ya</a>
+                  <a href="#" class="btn btn-secondary shadow-none ms-3"
+                    >Ver planes</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <img
+                src="./imgs/hero-banner.png"
+                class="w-100 imagen"
+                alt="Hero-Baneer"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div id="servicios" class="container">
+          <div class="text-center bg-section rounded-4 py-1">
+            <div class="text-services">
+              <h3>Nuestros Servicios</h3>
+            </div>
+          </div>
+          <div class="row justify-content-evenly my-1 gy-4">
+            <div class="col-12 col-md-6 col-lg-4">
+              <div id="cirugias" class="card bg-section product-card">
+                <a href="">
+                  <img
+                    src="./imgs/cirugia.jpg"
+                    class="card-img-top"
+                    alt="Cirugias"
+                  />
+                </a>
+                <div class="card-body">
+                  <h5 class="card-title text-center">Cirugias</h5>
+                  <p class="text-regular">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
                   </p>
-                </article>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <div id="radiografias" class="card bg-section product-card">
+                <img
+                  src="./imgs/radiografia.jpg"
+                  class="card-img-top"
+                  alt="Radiografias"
+                />
+                <div class="card-body">
+                  <h5 class="card-title text-center">Radiografias</h5>
+                  <p class="text-regular">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <div id="vacunacion" class="card bg-section product-card">
+                <img
+                  src="./imgs/vacunacion.jpg"
+                  class="card-img-top"
+                  alt="Vacunacion"
+                />
+                <div class="card-body">
+                  <h5 class="card-title text-center">Vacunacion</h5>
+                  <p class="text-regular">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <div id="laboratorio" class="card bg-section product-card">
+                <img
+                  src="./imgs/analisis.jpg"
+                  class="card-img-top"
+                  alt="Laboratorio"
+                />
+                <div class="card-body">
+                  <h5 class="card-title text-center">
+                    Resultados de laboratorio
+                  </h5>
+                  <p class="text-regular">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card bg-section product-card">
+                <img
+                  src="./imgs/peluqueriaa.jpg"
+                  class="card-img-top"
+                  alt="Peluqueria"
+                />
+                <div class="card-body">
+                  <h5 class="card-title text-center">Peluqueria</h5>
+                  <p class="text-regular">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <div id="esterilizacion" class="card bg-section product-card">
+                <img
+                  src="./imgs/esterilizacion.png"
+                  class="card-img-top"
+                  alt="Esterilizacion"
+                />
+                <div class="card-body">
+                  <h5 class="card-title text-center">Esterilizacion</h5>
+                  <p class="text-regular">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="background-gradient">
+        <section class="background-formulary">
+          <div id="contacto" class="container bg-section rounded-4 py-2">
+            <div class="row justify-content-around">
+              <div class="col-lg-5">
+                <div class="text-services">
+                  <h3>Ponte en contacto con nosotros</h3>
+                </div>
+                <form class="row gy-2">
+                  <div class="col-md-6">
+                    <label for="firstName" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" />
+                  </div>
+                  <div class="col-md-6">
+                    <label for="lasttName" class="form-label">Apellido</label>
+                    <input type="text" class="form-control" />
+                  </div>
+                  <div class="col-md-8">
+                    <label for="emailInfo" class="form-label">Correo</label>
+                    <input type="text" class="form-control" />
+                  </div>
+                  <div class="col-md-4">
+                    <label for="phoneNumber" class="form-label">Telefono</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="+569 "
+                    />
+                  </div>
+                  <div class="col-md-12">
+                    <label for="comments" class="form-label"
+                      >¿Tienes alguna consulta ?</label
+                    >
+                    <textarea class="form-control" rows="3"></textarea>
+                  </div>
+                  <div class="col-md-12">
+                    <a type="submit" class="btn btn-secondary shadow-none mt-3"
+                      >Enviar</a
+                    >
+                  </div>
+                </form>
               </div>
               <div class="col-lg-5">
-                <div class="contenedor-imagen">
-                  <img class="imagen" src="./imgs/bannerjpg.jpg" alt="">
-                </div> -->
-                <!-- <img class="img-fluid" src="./imgs/bannerjpg.jpg" alt="gato" style="max-height: 400px" /> -->
-              <!-- </div>
-            </div>
-          </div>
-        </div> -->
-
-    </section>
-
-    <section class="background-products">
-  
-      <div class="container">
-        
-        <div class="text-center bg-section rounded-4 py-1">
-          <h1 class="text-hero-bold">Nuestros servicios</h1>
-        </div>
-        <div class="row justify-content-evenly my-1 gy-4">
-          <div class="col-12 col-md-6 col-lg-4">
-            <div class="card bg-section product-card" >
-              <img src="./imgs/cirugia.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title text-center">Cirugias</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <img class="img-fluid py3" src="./imgs/mail.png" alt="mail" />
               </div>
             </div>
           </div>
-          <div class="col-12 col-md-6 col-lg-4">
-            <div class="card bg-section product-card" >
-            <img src="./imgs/radiografia.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title text-center">Radiografias</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-          </div>
-          </div>
-          <div class="col-12 col-md-6 col-lg-4">
-            <div class="card bg-section product-card" >
-              <img src="./imgs/esterilizacion.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title text-center">Esterilizacion</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-6 col-lg-4">
-            <div class="card bg-section product-card" >
-              <img src="./imgs/laboratorio.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title text-center">Resultados de laboratorio</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-6 col-lg-4">
-            <div class="card bg-section product-card" >
-            <img src="./imgs/profesionales.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title text-center">Peluqueria</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-          </div>
-          </div>
-          <div class="col-12 col-md-6 col-lg-4">
-            <div class="card bg-section product-card" >
-              <img src="./imgs/profesionales.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title text-center">Vacunacion</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="background-gradient">
-      <section class="background-formulary ">
-        <div class="container bg-section rounded-4 py-2">
-          <div class="row justify-content-around">
-            <div class="col-lg-5">
-              <h1> Ponte en contacto con nosotros</h1>
-              <form class="row gy-2">
-                <div class="col-md-6">
-                  <label for="firstName" class="form-label">Nombre</label>
-                  <input type="text" class="form-control">
-                </div>
-                <div class="col-md-6">
-                  <label for="lasttName" class="form-label">Apellido</label>
-                  <input type="text" class="form-control">
-                </div>
-                <div class="col-md-8">
-                  <label for="emailInfo" class="form-label">Correo</label>
-                  <input type="text" class="form-control">
-                </div>
-                <div class="col-md-4">
-                  <label for="phoneNumber" class="form-label">Telefono</label>
-                  <input type="text" class="form-control" placeholder="+569 ">
-                </div>
-                <div class="col-md-12">
-                  <label for="comments" class="form-label">¿Tienes alguna consulta ?</label>
-                  <textarea class="form-control" rows="3"></textarea>
-                </div>
-                <div class="col-md-12">
-                  <a type="submit" class="btn btn-secondary shadow-none mt-3">Enviar</a>
-                </div>
-              </form>
-            </div>
-            <div class="col-lg-5">
-                <img class="img-fluid py3" src="./imgs/maill.png" alt="" />
-            </div>
-            </div>
-          </div>
-      
         </section>
         <section class="background-comments">
           <div class="comments bg-section container">
             <div class="row align-items-center">
               <div class="col-lg-5">
                 <div class="container">
-
-                  <h1>Testimonios</h1>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus hic nesciunt consequuntur excepturi
-                    facilis
-                    blanditiis? Maxime enim possimus nulla.</p>
+                  <div class="text-services">
+                    <h3>Testimonios de nuestros clientes</h3>
+                  </div>
+                  <p class="text-label">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Minus hic nesciunt consequuntur excepturi facilis
+                    blanditiis? Maxime enim possimus nulla.
+                  </p>
                 </div>
               </div>
-              <div class="col-lg-7" style="background-color: #ECF0F1; box-shadow: 0px 0px 9px 9px rgba(0,0,0,0.1); ">
+              <div class="col-lg-7 pt-4 background-coment">
                 <div class="d-none d-lg-block">
-                  <div class="row ">
+                  <div class="row">
                     <div class="col pt-4">
                       <div class="d-flex">
-                        <img src="./imgs/profile-1.jpg" class="profile-img flex-shrink-0" alt="">
-                        <img src="./imgs/quote.svg" alt="" width="30px">
+                        <img
+                          src="./imgs/profile-1.jpg"
+                          class="profile-img flex-shrink-0"
+                          alt=""
+                        />
+                        <img src="./imgs/quote.svg" alt="quote" width="30px" />
                       </div>
                       <h3>Montserrat Castilla</h3>
                       <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae doloribus in corporis tempora
-                        placeat eius odit optio aut sit deleniti dignissimos harum, assumenda consectetur inventore nisi
-                        quos
-                        facilis natus veritatis.
+                        Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit. Repudiandae doloribus in corporis tempora placeat
+                        eius odit optio aut sit deleniti dignissimos harum,
+                        assumenda consectetur inventore nisi quos facilis natus
+                        veritatis.
                       </p>
                       <div class="d-flex justify-content-end">
-                        <img src="./imgs/quote-end.svg" alt="" width="30px">
+                        <img
+                          src="./imgs/quote-end.svg"
+                          alt="quote-end"
+                          width="30px"
+                        />
                       </div>
                     </div>
                     <div class="col pt-4">
                       <div class="d-flex">
-                        <img src="./imgs/profile-2.jpg" class="profile-img flex-shrink-0" alt="">
-                        <img src="./imgs/quote.svg" alt="" width="30px">
+                        <img
+                          src="./imgs/profile-2.jpg"
+                          class="profile-img flex-shrink-0"
+                          alt=""
+                        />
+                        <img src="./imgs/quote.svg" alt="quote" width="30px" />
                       </div>
                       <h3>Roel Aufderehar</h3>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore corporis in, facilis impedit
-                        explicabo quisquam, laborum odio optio nam ducimus sapiente nesciunt fuga atque repellendus eligendi
-                        omnis saepe ipsum minima
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Tempore corporis in, facilis impedit explicabo
+                        quisquam, laborum odio optio nam ducimus sapiente
+                        nesciunt fuga atque repellendus eligendi omnis saepe
+                        ipsum minima
                       </p>
                       <div class="d-flex justify-content-end">
-                        <img src="./imgs/quote-end.svg" alt="" width="30px">
+                        <img
+                          src="./imgs/quote-end.svg"
+                          alt="quote-end"
+                          width="30px"
+                        />
                       </div>
                     </div>
                     <div class="col pt-4">
                       <div class="d-flex">
-                        <img src="./imgs/profile-3.jpg" class="profile-img flex-shrink-0" alt="">
-                        <img src="./imgs/quote.svg" alt="" width="30px">
+                        <img
+                          src="./imgs/profile-3.jpg"
+                          class="profile-img flex-shrink-0"
+                          alt=""
+                        />
+                        <img src="./imgs/quote.svg" alt="quote" width="30px" />
                       </div>
                       <h3>Azahara Zheng</h3>
                       <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, ducimus libero? Inventore,
-                        quibusdam aspernatur. Repellendus dolore velit rem harum, deserunt doloribus officiis consequuntur
-                        molestiae veritatis commodi saepe.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Recusandae, ducimus libero? Inventore, quibusdam
+                        aspernatur. Repellendus dolore velit rem harum, deserunt
+                        doloribus officiis consequuntur molestiae veritatis
+                        commodi saepe.
                       </p>
                       <div class="d-flex justify-content-end">
-                        <img src="./imgs/quote-end.svg" alt="" width="30px">
+                        <img
+                          src="./imgs/quote-end.svg"
+                          alt="quote-end"
+                          width="30px"
+                        />
                       </div>
                     </div>
                   </div>
                 </div>
                 <div class="d-block d-lg-none">
-                  <div class="row align-items-center ">
+                  <div class="row align-items-center">
                     <div id="carouselExample" class="carousel slide">
                       <div class="carousel-inner">
                         <div class="carousel-item active">
                           <div class="d-flex">
-                            <img src="./imgs/profile-1.jpg" class="profile-img flex-shrink-0" alt="">
+                            <img
+                              src="./imgs/profile-1.jpg"
+                              class="profile-img flex-shrink-0"
+                              alt="profile-1"
+                            />
                             <div class="ps-3 pt-4">
                               <h3>Montserrat Castilla</h3>
                             </div>
                           </div>
-                          <img src="./imgs/quote.svg" alt="" width="30px">
+                          <img
+                            src="./imgs/quote.svg"
+                            alt="quote"
+                            width="30px"
+                          />
                           <p class="d-block w-100">
                             <i class="m-4">
-                              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae doloribus in corporis
-                              tempora
-                              placeat eius odit optio aut sit deleniti dignissimos harum, assumenda consectetur inventore
-                              nisi quos
-                              facilis natus veritatis.
+                              Lorem ipsum, dolor sit amet consectetur
+                              adipisicing elit. Repudiandae doloribus in
+                              corporis tempora placeat eius odit optio aut sit
+                              deleniti dignissimos harum, assumenda consectetur
+                              inventore nisi quos facilis natus veritatis.
                             </i>
                           </p>
                           <div class="d-flex justify-content-end">
-                            <img src="./imgs/quote-end.svg" alt="" width="30px">
+                            <img
+                              src="./imgs/quote-end.svg"
+                              alt="quote-end"
+                              width="30px"
+                            />
                           </div>
                         </div>
                         <div class="carousel-item">
                           <div class="d-flex">
-                            <img src="./imgs/profile-2.jpg" class="profile-img flex-shrink-0" alt="">
+                            <img
+                              src="./imgs/profile-2.jpg"
+                              class="profile-img flex-shrink-0"
+                              alt="profile-2"
+                            />
                             <div class="ps-3 pt-4">
                               <h3>Roel Aufderehar</h3>
                             </div>
                           </div>
-                          <img src="./imgs/quote.svg" alt="" width="30px">
+                          <img
+                            src="./imgs/quote.svg"
+                            alt="quote"
+                            width="30px"
+                          />
                           <p class="d-block w-100">
                             <i class="m-4">
-                              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore corporis in, facilis impedit
-                              explicabo quisquam, laborum odio optio nam ducimus sapiente nesciunt fuga atque repellendus
-                              eligendi
-                              omnis saepe ipsum minima
+                              Lorem ipsum dolor sit amet, consectetur
+                              adipisicing elit. Tempore corporis in, facilis
+                              impedit explicabo quisquam, laborum odio optio nam
+                              ducimus sapiente nesciunt fuga atque repellendus
+                              eligendi omnis saepe ipsum minima
                             </i>
                           </p>
                           <div class="d-flex justify-content-end">
-                            <img src="./imgs/quote-end.svg" alt="" width="30px">
+                            <img
+                              src="./imgs/quote-end.svg"
+                              alt="quote-end"
+                              width="30px"
+                            />
                           </div>
                         </div>
                         <div class="carousel-item">
                           <div class="d-flex">
-                            <img src="./imgs/profile-3.jpg" class="profile-img flex-shrink-0" alt="">
+                            <img
+                              src="./imgs/profile-3.jpg"
+                              class="profile-img flex-shrink-0"
+                              alt="profile-3"
+                            />
                             <div class="ps-3 pt-4">
                               <h3>Azahara Zheng</h3>
                             </div>
                           </div>
-                          <img src="./imgs/quote.svg" alt="" width="30px">
+                          <img
+                            src="./imgs/quote.svg"
+                            alt="quote"
+                            width="30px"
+                          />
                           <p class="d-block w-100">
                             <i class="m-4">
-                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, ducimus libero?
-                              Inventore,
-                              quibusdam aspernatur. Repellendus dolore velit rem harum, deserunt doloribus officiis
-                              consequuntur
+                              Lorem ipsum dolor sit amet consectetur adipisicing
+                              elit. Recusandae, ducimus libero? Inventore,
+                              quibusdam aspernatur. Repellendus dolore velit rem
+                              harum, deserunt doloribus officiis consequuntur
                               molestiae veritatis commodi saepe.
                             </i>
                           </p>
                           <div class="d-flex justify-content-end">
-                            <img src="./imgs/quote-end.svg" alt="" width="30px">
+                            <img
+                              src="./imgs/quote-end.svg"
+                              alt="quote-end"
+                              width="30px"
+                            />
                           </div>
                         </div>
                       </div>
-                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
-                        data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <button
+                        class="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#carouselExample"
+                        data-bs-slide="prev"
+                      >
+                        <span
+                          class="carousel-control-prev-icon"
+                          aria-hidden="true"
+                        ></span>
                         <span class="visually-hidden">Previous</span>
                       </button>
-                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
-                        data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <button
+                        class="carousel-control-next"
+                        type="button"
+                        data-bs-target="#carouselExample"
+                        data-bs-slide="next"
+                      >
+                        <span
+                          class="carousel-control-next-icon"
+                          aria-hidden="true"
+                        ></span>
                         <span class="visually-hidden">Next</span>
                       </button>
                     </div>
                   </div>
                 </div>
               </div>
-    
             </div>
           </div>
         </section>
-    </section>
-  </main>
-
-  <footer class=" footer text-white pt-5 pg-4">
-    <div class="container text-center text-md-text">
-      <div class="row text text-md-left">
-        <div class="col-md-3 col-lg-3 col-xl-3 col-mt-3">
-          <h5 class="mb-4">MEDIVET</h5>
-          <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam facilis in quis voluptatibus, culpa dicta aliquam quia, odit voluptatem, quasi atque. Doloremque earum a velit sint nemo veritatis nesciunt neque!</P>
+      </section>
+    </main>
+    <footer id="footer" class="footer text-white pt-5 pg-4">
+      <div class="container text-center text-md-text">
+        <div class="row text text-md-left">
+          <div class="col-md-3 col-lg-3 col-xl-3 col-mt-3">
+            <h5 class="mb-4">VETCLINIC</h5>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam
+              facilis in quis voluptatibus, culpa dicta aliquam quia, odit
+              voluptatem, quasi atque. Doloremque earum a velit sint nemo
+              veritatis nesciunt neque!
+            </p>
+          </div>
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h5 class="mb-4">Servicios</h5>
+            <p>
+              <a class="link-footer" href="#cirugias">Cirugias</a>
+            </p>
+            <p>
+              <a class="link-footer" href="#radiografias">Radiografias</a>
+            </p>
+            <p>
+              <a class="link-footer" href="#vacunacion">Vacunacion</a>
+            </p>
+            <p>
+              <a class="link-footer" href="#laboratorio">Laboratorio</a>
+            </p>
+            <p>
+              <a class="link-footer" href="#esterilizacion">Esterilizacion</a>
+            </p>
+          </div>
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h5 class="mb-4">Cuenta</h5>
+            <p>
+              <a class="link-footer" href="#cta">Mis Planes</a>
+            </p>
+            <p>
+              <a class="link-footer">Mis Mascotas</a>
+            </p>
+            <p>
+              <a class="link-footer">Ficha Clinica</a>
+            </p>
+          </div>
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h5 class="mb-4">CONTACTO</h5>
+            <p>
+              <i class="mr-3">Ubicacion, calle#123, chile</i>
+            </p>
+            <p>
+              <i class="mr-3">correo de contacto: contacto@contacto.cl</i>
+            </p>
+            <p>
+              <i class="-3">Wathsapp: +569 55555555</i>
+            </p>
+            <p>
+              <i class="mr-3">Telefono: 22 22222222</i>
+            </p>
+          </div>
         </div>
-        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-          <h5 class="mb-4">Los productos</h5>
-          <p>
-            <a href="">texto 1</a>
-          </p>
-          <p>
-            <a href="">texto 2</a>
-          </p>
-          <p>
-            <a href="">texto 2</a>
-          </p>
-          <p>
-            <a href="">texto 3</a>
-          </p>
-          <p>
-            <a href="">texto 4</a>
-          </p>
-        </div>
-        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-          <h5 class="mb-4">cosas utiles</h5>
-          <p>
-            <a href="">Tu cuenta</a>
-          </p>
-          <p>
-            <a href="">Planes</a>
-          </p>
-          <p>
-            <a href="">Servicios</a>
-          </p>
-          <p>
-            <a href="">Ayuda</a>
-          </p>
-        </div>
-        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-          <h5 class="mb-4">CONTACTO</h5>
-          <p>
-            <i class="mr-3">Ubicacion, calle#123, chile</i>
-          </p>
-          <p>
-            <i class="mr-3">correo de contacto: contacto@contacto.cl</i>
-          </p>
-          <p>
-            <i class="-3">Wathsapp: +569 55555555</i>
-          </p>
-          <p>
-            <i class="mr-3">Telefono: 22 22222222</i>
-          </p>
-        </div>
-      </div>
-      <hr class="mb-4">
-      <div class="row align-items-center">
-        <div class="col-md-7 col-lg-8">
-          <p>© Página de aterrizaje de proyecto 3.</p>
-        </div>
-        <div class="col-md-5 col-lg-4">
-          <div class="text-center text-md-right">
-            <ul class="list-unstyled list-inline">
-              <li class="list-inline-item">
-                <a href="" class="btn-floating btn-sm text-white" style="font-size: 23px;"> 
-                  <i class="fab fa-facebook"> face</i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="" class="btn-floating btn-sm text-white" style="font-size: 23px;"> 
-                  <i class="fab fa-facebook"> insta</i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="" class="btn-floating btn-sm text-white" style="font-size: 23px;"> 
-                  <i class="fab fa-facebook"> wsp</i>
-                </a>
-              </li>
-            </ul>
+        <hr class="mb-4" />
+        <div class="row align-items-center">
+          <div class="col-12">
+            <p>© Página de aterrizaje de proyecto 3.</p>
           </div>
         </div>
       </div>
-    </div>
-  </footer>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"></script>
-</body>
-
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

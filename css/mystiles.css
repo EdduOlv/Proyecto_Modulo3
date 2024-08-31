@@ -1,9 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500;600;700&family=Inter:wght@100;300;400;500;700;800;900&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;1,500&display=swap");
 
-/* SETUP */
-
 :root {
-  /* Color Styles */
+
   --primary: #04806c;
   --primary-light: #3c9e94;
   --primary2: #7dac4b;
@@ -13,9 +11,8 @@
   --dark: #000000;
   --gray: #464a53;
   --white: #ffffff;
-  --purple: #ECF0F1;
+  --gray2: #ECF0F1;
 
-  /* Font Size Desktop */
   --header-1: 64px;
   --header-2: 48px;
   --header-3: 42px;
@@ -25,7 +22,6 @@
   --text-regular: 16px;
   --text-light: 13px;
 
-  /* Font Weight */
   --font-weight-bold: 700;
   --font-weight-semi-bold: 600;
   --font-weight-medium: 500;
@@ -39,7 +35,7 @@ body {
 }
 
 .bg-section{
-  background-color: var(--purple);
+  background-color: var(--gray2);
 }
 
 .btn {
@@ -103,13 +99,13 @@ a.nav-link {
 }
 
 section.hero {
-  
   margin: 5rem 0;
 }
 
 .text-label,
 .text-hero-bold,
-.text-hero-regular {
+.text-regular,
+.text-services {
   margin: 24px 0;
 }
 
@@ -127,15 +123,35 @@ section.hero {
   line-height: 74px;
 }
 
-.text-hero-regular {
+.text-regular {
   color: var(--gray-1);
   font-size: var(--text-regular);
   font-weight: var(--font-weight-regular);
   line-height: 31px;
 }
 
+.text-services{
+  color: var(--dark);
+  font-size: var(--header-2);
+  font-weight: var(--font-weight-bold);
+  line-height: 74px;
+}
+
 .background-comments {
  padding-bottom: 14px;;
+}
+
+.background-coment{
+  background-color: #ECF0F1; 
+  box-shadow: 0px 0px 9px 9px rgba(0,0,0,0.1);
+}
+
+.background-formulary {
+  margin: 24px 0;
+}
+
+.background-gradient{
+  background: linear-gradient(to top, #02735E, #d5e8d9);
 }
 
 .profile-img {
@@ -152,6 +168,19 @@ section.hero {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
+.imagen {
+  border-radius: 10px;
+}
+
+.footer{
+  background-color: #064452;
+}
+
+a.link-footer {
+  color: inherit;
+  text-decoration: none; 
+}
+
 @media screen and (min-width: 992px) {
   .profile-img {
     width: 30%;
@@ -159,73 +188,6 @@ section.hero {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   }
 }
-
-.background-gradient{
-  background: linear-gradient(to top, #02735E, #d5e8d9);
-}
-
-.background-formulary {
-  
-  
-  margin: 24px 0;
-
-}
-
-.background-products {
-  background-color: #d5e8d9;
-}
-
-.footer{
-  background-color: #064452;
-}
-
-.separator {
-  position: relative;
-  background: rgb(236, 240, 241);
-  height: 10vh;
-}
-
-.wave {
-  position: absolute;
-  height: 19px;
-  width: 100%;
-  background: rgb(236, 240, 241);
-  bottom: 0;
-}
-
-.wave::before,
-.wave::after {
-  content: "";
-  display: block;
-  position: absolute;
-  border-radius: 100% 50%;
-}
-
-.wave::before {
-  width: 55%;
-  height: 109%;
-  background-color: #81b622;
-  right: -1.5%;
-  top: 60%;
-}
-.wave::after {
-  width: 55%;
-  height: 100%;
-  background-color: rgb(236, 240, 241);
-  left: -1.5%;
-  top: 40%;
-}
-
-
-
-.imagen {
-  mask-image: linear-gradient(
-    black 80%
-    transparent
-  );
-}
-
-
 
 @media (min-width: 1399.98px) {
 
@@ -235,11 +197,7 @@ section.hero {
 
 }
 
-/* MOBILE VERSION ONLY */
-
 @media (max-width: 576px) {
-
-  /* NAVBAR */
 
   .navbar {
       padding: 28px 0;
@@ -248,8 +206,6 @@ section.hero {
   a.nav-link {
       margin-right: 7px 0;
   }
-
-  /* HERO */
 
   section.hero {
       margin: 2rem 0;
@@ -267,7 +223,7 @@ section.hero {
 
   .text-label,
   .text-hero-bold,
-  .text-hero-regular {
+  .text-regular {
       text-align: center;
   }
 
@@ -282,12 +238,7 @@ section.hero {
   }
 }
 
-
-/* TABLET SMALL VERSION ONLY */
-
 @media (max-width: 768px) {
-
-  /* NAVBAR */
 
   .navbar {
       padding: 28px 0;
@@ -296,8 +247,6 @@ section.hero {
   a.nav-link {
       margin-right: 7px 0;
   }
-
-  /* HERO */
 
   section.hero {
       margin: 1rem 0;
@@ -315,12 +264,7 @@ section.hero {
 
 }
 
-
-/* TABLET MEDIUM & LARGE VERSION ONLY */
-
 @media (max-width: 992px) {
-  /* NAVBAR */
-
   .navbar {
       padding: 28px 0;
   }
@@ -328,8 +272,6 @@ section.hero {
   a.nav-link {
       margin-right: 7px 0;
   }
-
-  /* HERO */
 
   section.hero {
       margin: 1rem 0;
