@@ -13,6 +13,7 @@
   --dark: #000000;
   --gray: #464a53;
   --white: #ffffff;
+  --purple: #ECF0F1;
 
   /* Font Size Desktop */
   --header-1: 64px;
@@ -35,6 +36,10 @@
 body {
   font-family: "Poppins", sans-serif;
   background-color: #d5e8d9;
+}
+
+.bg-section{
+  background-color: var(--purple);
 }
 
 .btn {
@@ -98,7 +103,7 @@ a.nav-link {
 }
 
 section.hero {
-  background-color: #d5e8d9;
+  
   margin: 5rem 0;
 }
 
@@ -171,7 +176,7 @@ section.hero {
 }
 
 .footer{
-  background-color: #02735E;
+  background-color: #064452;
 }
 
 .separator {
@@ -228,10 +233,6 @@ section.hero {
       width: 84%;
   }
 
-  /* TESTIMONI BRAND */
-  .testimoni-brand {
-      padding: 4rem 5rem;
-  }
 }
 
 /* MOBILE VERSION ONLY */
