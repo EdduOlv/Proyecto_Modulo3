@@ -21,3 +21,9 @@ Proyecto realizado con HTML, CSS usando el framework Boostrap
 ## Mi proyecto
 
 Mi proyecto utiliza Bootstrap 5, aplicando sus estilos en el archivo index.html. Además, implementa media queries y clases personalizadas. La página estática es compatible con cualquier dispositivo.
+
+## Despliegue en GitHub Pages
+
+Este es el despliegue para asegurar la correcta visualización del proyecto y realizar las pruebas correspondientes para evaluar su comportamiento en distintas pantallas.
+
+`(https://edduolv.github.io/Proyecto_Modulo3/)`
