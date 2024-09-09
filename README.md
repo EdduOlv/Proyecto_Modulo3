@@ -26,4 +26,5 @@ Mi proyecto utiliza Bootstrap 5, aplicando sus estilos en el archivo index.html.
 
 Este es el despliegue para asegurar la correcta visualización del proyecto y realizar las pruebas correspondientes para evaluar su comportamiento en distintas pantallas.
 
-`(https://edduolv.github.io/Proyecto_Modulo3/)`
+(https://edduolv.github.io/Proyecto_Modulo3/)
+
